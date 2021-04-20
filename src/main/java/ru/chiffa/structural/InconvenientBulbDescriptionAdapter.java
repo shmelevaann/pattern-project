@@ -7,9 +7,4 @@ public class InconvenientBulbDescriptionAdapter extends ConvenientBulbDescriptio
         super(inconvenientBulbDescription.getTemperature() < 2700 ? "yellow" : "white");
         this.inconvenientBulbDescription = inconvenientBulbDescription;
     }
-
-    @Override
-    public String getColor() {
-        return super.getColor();
-    }
 }
